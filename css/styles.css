@@ -56,3 +56,7 @@
 .col-sm-6{
   text-align: center;
 }
+
+#story {
+  display: none;
+}

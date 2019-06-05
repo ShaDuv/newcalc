@@ -44,6 +44,33 @@ $(document).ready(function() {
   });
 
 
+	$(".newbutton").click(function(){
+		event.preventDefault();
+		if($('.form-control option').val('1')){
+		console.log("Selected coffee");
+	} else if ($('.form-control option').val('2')) {
+		console.log('selected tea');
+	} else if ($('.form-control option').val('3')) {
+		console.log('selected kombucha') ;
+	} else {
+		console.log('water') ;
+		};
+	});
+			//var beverage = $('#beverage').val("2");
+		//console.log(beverage);
+
+
+var numbers = [1, 2, 3, 4];
+
+
+function getSum(num1, num2) {
+  return num1 + num2;
+}
+
+console.log(numbers.reduce(getSum));
+
+
+
 });
 
 
