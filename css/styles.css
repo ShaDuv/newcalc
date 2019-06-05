@@ -1,0 +1,47 @@
+
+/* This establishes a fixed width for the body*/
+.calc-body{
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* This is the spot for the answer (answer-slot)*/
+
+.answer-row{
+}
+
+.answer-slot{
+  height: 50px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+
+  }
+
+/* This gives the buttons a size*/
+
+.numpad-button {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.numpad-button p{
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
+
+.col-sm-3{
+  text-align: center;
+}
