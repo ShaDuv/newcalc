@@ -9,6 +9,7 @@ $(document).ready(function() {
       $(".beverage").text(beverage);
       $(".born").text(dob);
       $(".color").text(favoriteColor);
+      console.log(favoriteColor);
       $(".color").css({backgroundColor: favoriteColor});
 
       $("#story").show();
